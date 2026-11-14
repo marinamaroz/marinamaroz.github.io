@@ -1,0 +1,16 @@
+---
+title: "Contact"
+---
+
+[For commissions, exhibitions, prints and collaborations — write anytime.]{.lead-serif}
+
+::: {.cv}
+### Email
+[hello@example.com](mailto:hello@example.com) *(placeholder)*
+
+### Elsewhere
+[Instagram](https://instagram.com/) · [Facebook](https://facebook.com/) · [Behance](https://behance.net/)
+
+### Studio
+City, Country *(placeholder)*
+:::

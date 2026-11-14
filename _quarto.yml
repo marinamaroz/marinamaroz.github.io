@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages serves main branch /docs
+
+website:
+  title: "Marina Maroz"
+  description: "Marina Maroz — graphic artist. Prints, drawings and illustration."
+  site-url: https://marinamaroz.github.io   # TODO: update to her GitHub username / custom domain
+  favicon: images/favicon.svg
+  page-navigation: false
+  search: false
+  navbar:
+    background: "#f4f0e8"
+    foreground: "#1b1a18"
+    title: "Marina Maroz"
+    right:
+      - href: works.qmd
+        text: Works
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+      - icon: instagram
+        href: https://instagram.com/   # TODO
+        aria-label: Instagram
+  page-footer:
+    left: "© 2026 Marina Maroz · All works reproduced with permission of the artist"
+    right: "Марына Мароз"
+
+format:
+  html:
+    theme: [default, theme.scss]
+    lightbox: auto
+    toc: false
+    smooth-scroll: true
+    anchor-sections: false
+    link-external-newwindow: true

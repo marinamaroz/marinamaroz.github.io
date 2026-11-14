@@ -1,0 +1,39 @@
+---
+title: "About"
+---
+
+::: {.placeholder-note}
+Mock bio — replace with Marina’s own text, photo and CV.
+:::
+
+::: {.about-grid}
+::: {}
+![](images/portrait-placeholder.svg){fig-alt="Portrait of Marina Maroz" .nolightbox}
+:::
+
+::: {}
+[Marina Maroz (Марына Мароз) is a graphic artist from Belarus. Her work moves between printmaking, drawing and illustration, drawing on the geometry of Belarusian woven textiles, the flat horizons of the landscape, and the stories carried in both.]{.lead-serif}
+
+Working mostly in black ink with a single accent of red, she builds images from repetition — hatched lines, stacked motifs, rhythmic marks — so that each print reads both as a picture and as a pattern. *[Placeholder: a sentence on process, studio and current focus.]*
+
+She has exhibited in *[cities / countries]*, illustrated *[books / publications]*, and is currently based in *[city]*.
+
+::: {.cv}
+### Education
+<dl><dt>20XX</dt><dd>Placeholder — e.g. Belarusian State Academy of Arts, Department of Graphics</dd></dl>
+
+### Selected exhibitions
+<dl>
+<dt>2025</dt><dd>Title of exhibition, Gallery, City (solo)</dd>
+<dt>2024</dt><dd>Title of exhibition, Gallery, City (group)</dd>
+<dt>2023</dt><dd>Title of exhibition, Gallery, City (group)</dd>
+</dl>
+
+### Publications & illustration
+<dl><dt>2022</dt><dd>Book title, Publisher</dd></dl>
+
+### Residencies & awards
+<dl><dt>20XX</dt><dd>Placeholder</dd></dl>
+:::
+:::
+:::

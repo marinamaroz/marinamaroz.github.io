@@ -1,0 +1,77 @@
+---
+title: "Works"
+page-layout: full
+---
+
+::: {.placeholder-note}
+Mock content — titles, media and images are placeholders to be replaced with Marina’s actual works.
+:::
+
+```{=html}
+<div class="filters" role="tablist">
+  <button class="on" data-f="all">All</button>
+  <button data-f="print">Printmaking</button>
+  <button data-f="drawing">Drawing</button>
+  <button data-f="illustration">Illustration</button>
+</div>
+```
+
+:::: {.gallery}
+::: {.work data-cat="print"}
+![*Kupalle Sun*, 2024<br><small>Linocut, 50 × 70 cm</small>](images/works/work-01.svg){group="works" fig-alt="Kupalle Sun"}
+:::
+
+::: {.work data-cat="drawing"}
+![*Rushnik Study I*, 2023<br><small>Ink on paper, 40 × 40 cm</small>](images/works/work-02.svg){group="works" fig-alt="Rushnik Study I"}
+:::
+
+::: {.work data-cat="print"}
+![*Horizon, Polesie*, 2023<br><small>Woodcut, 60 × 40 cm</small>](images/works/work-03.svg){group="works" fig-alt="Horizon, Polesie"}
+:::
+
+::: {.work data-cat="print"}
+![*Night Field*, 2023<br><small>Etching, 30 × 40 cm</small>](images/works/work-04.svg){group="works" fig-alt="Night Field"}
+:::
+
+::: {.work data-cat="drawing"}
+![*Woven Bands*, 2022<br><small>Ink and gouache, 50 × 50 cm</small>](images/works/work-05.svg){group="works" fig-alt="Woven Bands"}
+:::
+
+::: {.work data-cat="illustration"}
+![*Flight*, 2022<br><small>Book illustration</small>](images/works/work-06.svg){group="works" fig-alt="Flight"}
+:::
+
+::: {.work data-cat="print"}
+![*Kupalle Sun II*, 2022<br><small>Linocut, 50 × 70 cm</small>](images/works/work-07.svg){group="works" fig-alt="Kupalle Sun II"}
+:::
+
+::: {.work data-cat="drawing"}
+![*Rushnik Study II*, 2022<br><small>Ink on paper, 40 × 40 cm</small>](images/works/work-08.svg){group="works" fig-alt="Rushnik Study II"}
+:::
+
+::: {.work data-cat="print"}
+![*Reeds*, 2021<br><small>Woodcut, 60 × 40 cm</small>](images/works/work-09.svg){group="works" fig-alt="Reeds"}
+:::
+
+::: {.work data-cat="print"}
+![*Before Dawn*, 2021<br><small>Etching, 30 × 40 cm</small>](images/works/work-10.svg){group="works" fig-alt="Before Dawn"}
+:::
+
+::: {.work data-cat="drawing"}
+![*Pattern for a Shirt*, 2021<br><small>Ink and gouache</small>](images/works/work-11.svg){group="works" fig-alt="Pattern for a Shirt"}
+:::
+
+::: {.work data-cat="illustration"}
+![*Stork Line*, 2020<br><small>Editorial illustration</small>](images/works/work-12.svg){group="works" fig-alt="Stork Line"}
+:::
+
+::::
+
+```{=html}
+<script>
+document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.toggle('on', x === b));
+  document.querySelectorAll('.gallery .work').forEach(w => w.classList.toggle('hidden', b.dataset.f !== 'all' && w.dataset.cat !== b.dataset.f));
+}));
+</script>
+```
