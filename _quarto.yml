@@ -4,14 +4,12 @@ project:
 
 website:
   title: "Marina Maroz"
-  description: "Marina Maroz — graphic artist. Prints, drawings and illustration."
-  site-url: https://marinamaroz.github.io   # TODO: update to her GitHub username / custom domain
+  description: "Marina Maroz, graphic artist and printmaker from Minsk: mezzotint, soft ground etching and ex libris."
+  site-url: https://marinamaroz.github.io
   favicon: images/favicon.svg
   page-navigation: false
   search: false
   navbar:
-    background: "#f4f0e8"
-    foreground: "#1b1a18"
     title: "Marina Maroz"
     right:
       - href: works.qmd
@@ -21,15 +19,15 @@ website:
       - href: contact.qmd
         text: Contact
       - icon: instagram
-        href: https://instagram.com/   # TODO
+        href: https://www.instagram.com/marozmarina
         aria-label: Instagram
   page-footer:
-    left: "© 2026 Marina Maroz · All works reproduced with permission of the artist"
+    left: "© 2026 Marina Maroz · All images © the artist"
     right: "Марына Мароз"
 
 format:
   html:
-    theme: [default, theme.scss]
+    theme: [default, styles/base.scss, styles/paper.scss]
     lightbox: auto
     toc: false
     smooth-scroll: true

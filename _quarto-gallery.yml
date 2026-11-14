@@ -1,0 +1,5 @@
+project:
+  output-dir: previews/gallery
+format:
+  html:
+    theme: [default, styles/base.scss, styles/gallery.scss]

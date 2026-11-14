@@ -1,24 +1,24 @@
 ---
-pagetitle: "Graphic Artist"
+pagetitle: "Graphic Artist & Printmaker"
 page-layout: full
 title-block-banner: false
 ---
 
 ::: {.hero}
 ::: {.hero-text}
-[Graphic artist · Belarus]{.eyebrow}
+[Graphic artist & printmaker · Minsk]{.eyebrow}
 
 # Marina<br>*Maroz*
 
 [Марына Мароз]{.native}
 
-[Prints, drawings and illustration rooted in Belarusian ornament, landscape and memory — a quiet conversation between line, black ink and a single red.]{.lead-serif}
+[Mezzotint and soft ground etching. Monochrome symbolic still lifes about faith and sacrifice, abandonment and hope, and the relationship between the human and the divine.]{.lead-serif}
 
 [View the works →](works.qmd){.cta}
 :::
 
 ::: {.hero-art}
-![](images/works/hero.svg){fig-alt="Featured work by Marina Maroz" .nolightbox}
+![](images/cut/harvest-time.webp){fig-alt="Harvest time, 2025, mezzotint" .nolightbox}
 :::
 :::
 
@@ -28,22 +28,30 @@ title-block-banner: false
 
 ```{=html}
 <div class="selected">
-  <a href="works.html"><figure><img src="images/works/work-01.svg" alt=""></figure>
-    <div class="cap">Kupalle Sun <span>Linocut · 2024</span></div></a>
-  <a href="works.html"><figure><img src="images/works/work-02.svg" alt=""></figure>
-    <div class="cap">Rushnik Study I <span>Ink on paper · 2023</span></div></a>
-  <a href="works.html"><figure><img src="images/works/work-04.svg" alt=""></figure>
-    <div class="cap">Night Field <span>Etching · 2023</span></div></a>
+  <a href="works.html#evidences"><figure><img src="images/cut/predestination.webp" alt="Predestination"></figure>
+    <div class="cap"><em>Predestination</em> <span>Mezzotint · 2021</span></div></a>
+  <a href="works.html#harvest"><figure><img src="images/cut/new-pearls.webp" alt="New pearls"></figure>
+    <div class="cap"><em>New pearls</em> <span>Soft ground etching · 2025</span></div></a>
+  <a href="works.html#exlibris"><figure><img src="images/cut/in-the-secret-garden.webp" alt="In the secret garden"></figure>
+    <div class="cap"><em>In the secret garden</em> <span>Mezzotint ex libris · 2025</span></div></a>
 </div>
 ```
 
-<hr class="section-rule">
+```{=html}
+<figure class="band"><img src="images/details/wide-open.jpg" alt="Wide open, detail"><figcaption><em>Wide open</em>, 2021, soft ground etching (detail)</figcaption></figure>
+```
 
-::: {.columns}
-::: {.column width="40%"}
-[Currently]{.eyebrow}
+::: {.columns .recent}
+::: {.column width="35%"}
+[Recent]{.eyebrow}
 :::
-::: {.column width="60%"}
-[*Placeholder* — upcoming exhibition, residency or commission news goes here. Commissions and collaborations welcome — [get in touch](contact.qmd).]{.lead-serif}
+::: {.column width="65%"}
+**2025:** VI International Ex Libris Competition, Largo Art Gallery, Varna, Bulgaria
+
+**2024:** *Evidences*, solo exhibition, Terra Graphica Sacrum, Palace of Art, Minsk
+
+**2022:** *The World of Mezzotint*, National Center for Contemporary Arts, Minsk
+
+[Full CV →](about.qmd){.cta}
 :::
 :::

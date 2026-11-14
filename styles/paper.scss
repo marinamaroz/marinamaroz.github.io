@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap');
+$body-bg: #f4f0e8; $body-color: #1b1a18; $link-color: #2b5f6b; $primary: #2b5f6b;
+$font-family-sans-serif: "Inter", system-ui, sans-serif; $headings-font-family: "Cormorant Garamond", Georgia, serif;
+$headings-font-weight: 300; $font-size-base: .95rem; $line-height-base: 1.7;
+$navbar-bg: #f4f0e8; $navbar-fg: #1b1a18; $footer-bg: #f4f0e8;
+/*-- scss:rules --*/
+:root { --bg: #f4f0e8; --ink: #1b1a18; --muted: #8a8378; --accent: #2b5f6b; --rule: #d9d2c5;
+  --serif: "Cormorant Garamond", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --display-weight: 300;
+  --shadow: 0 18px 28px rgba(27,26,24,.18); }

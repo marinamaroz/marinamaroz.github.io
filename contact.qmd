@@ -2,15 +2,15 @@
 title: "Contact"
 ---
 
-[For commissions, exhibitions, prints and collaborations — write anytime.]{.lead-serif}
+[For exhibitions, acquisitions, commissions and ex libris, please write.]{.lead-serif}
 
 ::: {.cv}
 ### Email
-[hello@example.com](mailto:hello@example.com) *(placeholder)*
+[marinamaroz2018@gmail.com](mailto:marinamaroz2018@gmail.com)
 
-### Elsewhere
-[Instagram](https://instagram.com/) · [Facebook](https://facebook.com/) · [Behance](https://behance.net/)
+### Instagram
+[@marozmarina](https://www.instagram.com/marozmarina)
 
 ### Studio
-City, Country *(placeholder)*
+Minsk, Belarus
 :::
