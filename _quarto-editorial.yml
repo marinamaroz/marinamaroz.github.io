@@ -1,5 +1,0 @@
-project:
-  output-dir: previews/editorial
-format:
-  html:
-    theme: [default, styles/base.scss, styles/editorial.scss]

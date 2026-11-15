@@ -1,16 +1,21 @@
 ---
-title: "Contact"
+pagetitle: "Contact"
+body-classes: page-contact
 ---
 
-[For exhibitions, acquisitions, commissions and ex libris, please write.]{.lead-serif}
-
-::: {.cv}
-### Email
-[marinamaroz2018@gmail.com](mailto:marinamaroz2018@gmail.com)
-
-### Instagram
-[@marozmarina](https://www.instagram.com/marozmarina)
-
-### Studio
-Minsk, Belarus
-:::
+```{=html}
+<main class="contact" id="main">
+  <p class="kicker">Contact</p>
+  <p class="ct-lead">For exhibitions, acquisitions, commissions and ex libris, please write.</p>
+  <a class="ct-mail" href="mailto:marinamaroz2018@gmail.com"><span>marinamaroz2018</span><span>@gmail.com</span></a>
+  <dl class="ct-list">
+    <dt>Instagram</dt><dd><a href="https://www.instagram.com/marozmarina">@marozmarina</a></dd>
+    <dt>Studio</dt><dd>Minsk, Belarus</dd>
+  </dl>
+  <figure class="ct-stamp">
+    <img src="images/cut/in-flight.webp" width="783" height="786" alt="In flight, 2022, mezzotint ex libris">
+    <figcaption><em>In flight</em>, 2022</figcaption>
+  </figure>
+  <p class="colophon">© 2026 Marina Maroz · All images © the artist</p>
+</main>
+```

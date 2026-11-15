@@ -3,11 +3,12 @@
 Quarto website → rendered into `docs/` → served by GitHub Pages (branch `main`, folder `/docs`).
 
 ## Edit content
-- `index.qmd` — landing (hero image, tagline, 3 selected works)
-- `works.qmd` — gallery; each work is one block: `::: {.work data-cat="print|drawing|illustration"}` + image + caption
-- `about.qmd`, `contact.qmd` — bio / CV / links
-- `theme.scss` — all styling (colors at the top)
-- Images go in `images/works/` (JPG ~2000px long edge, < 500 KB each)
+- `images/works.json` — all works (series, slug, title, year, medium, size, detail flag).
+  After editing it run `python3 scripts/build_works.py` — this regenerates `index.qmd`
+  (the exhibition: entrance, three rooms, exit) and `works.qmd` (list of works).
+- `about.qmd`, `contact.qmd` — bio / CV / contact (raw HTML blocks)
+- `styles/exhibition.css` — all styling (room wall colours at the top)
+- `assets/exhibition.js` — room colour changes, ex libris horizontal wall, viewer
 
 ## Publish
     quarto render          # rebuilds docs/

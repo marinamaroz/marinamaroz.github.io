@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs          # GitHub Pages serves main branch /docs
+  resources:
+    - images/**
+    - assets/**
 
 website:
   title: "Marina Maroz"
@@ -9,27 +12,32 @@ website:
   favicon: images/favicon.svg
   page-navigation: false
   search: false
-  navbar:
-    title: "Marina Maroz"
-    right:
-      - href: works.qmd
-        text: Works
-      - href: about.qmd
-        text: About
-      - href: contact.qmd
-        text: Contact
-      - icon: instagram
-        href: https://www.instagram.com/marozmarina
-        aria-label: Instagram
-  page-footer:
-    left: "© 2026 Marina Maroz · All images © the artist"
-    right: "Марына Мароз"
 
 format:
   html:
-    theme: [default, styles/base.scss, styles/paper.scss]
-    lightbox: auto
+    minimal: true
+    theme: none
     toc: false
-    smooth-scroll: true
     anchor-sections: false
+    title-block-banner: false
     link-external-newwindow: true
+    css: styles/exhibition.css
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    include-before-body:
+      - text: |
+          <a class="skip" href="#main">Skip to content</a>
+          <header class="chrome">
+            <a class="brand" href="index.html">Marina Maroz</a>
+            <nav class="menu" aria-label="Main">
+              <a href="works.html">Works</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </header>
+    include-after-body:
+      - text: |
+          <script src="assets/exhibition.js"></script>
