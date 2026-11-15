@@ -1,5 +1,0 @@
-project:
-  output-dir: previews/mezzotint
-format:
-  html:
-    theme: [default, styles/base.scss, styles/mezzotint.scss]

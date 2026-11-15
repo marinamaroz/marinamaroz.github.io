@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs          # GitHub Pages serves main branch /docs
+  resources:
+    - images/**
+    - assets/**
 
 website:
   title: "Marina Maroz"
@@ -9,27 +12,12 @@ website:
   favicon: images/favicon.svg
   page-navigation: false
   search: false
-  navbar:
-    title: "Marina Maroz"
-    right:
-      - href: works.qmd
-        text: Works
-      - href: about.qmd
-        text: About
-      - href: contact.qmd
-        text: Contact
-      - icon: instagram
-        href: https://www.instagram.com/marozmarina
-        aria-label: Instagram
-  page-footer:
-    left: "© 2026 Marina Maroz · All images © the artist"
-    right: "Марына Мароз"
 
 format:
   html:
-    theme: [default, styles/base.scss, styles/paper.scss]
-    lightbox: auto
-    toc: false
-    smooth-scroll: true
+    minimal: true
+    css: styles/catalogue.css
     anchor-sections: false
-    link-external-newwindow: true
+    include-in-header: partials/head.html
+    include-before-body: partials/header.html
+    include-after-body: partials/footer.html

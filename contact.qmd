@@ -1,16 +1,17 @@
 ---
-title: "Contact"
+pagetitle: "Contact"
 ---
 
-[For exhibitions, acquisitions, commissions and ex libris, please write.]{.lead-serif}
-
-::: {.cv}
-### Email
-[marinamaroz2018@gmail.com](mailto:marinamaroz2018@gmail.com)
-
-### Instagram
-[@marozmarina](https://www.instagram.com/marozmarina)
-
-### Studio
-Minsk, Belarus
-:::
+```{=html}
+<section class="ct-page">
+  <span class="mono s-label">Contact</span>
+  <p class="cp-lead">For exhibitions, acquisitions, commissions and ex libris, please write.</p>
+  <a class="cp-mail" href="mailto:marinamaroz2018@gmail.com"><span>marinamaroz2018</span><span>@gmail.com</span></a>
+  <dl class="cp-dl mono">
+    <dt>Email</dt><dd><a href="mailto:marinamaroz2018@gmail.com">marinamaroz2018@gmail.com</a></dd>
+    <dt>Instagram</dt><dd><a href="https://www.instagram.com/marozmarina" target="_blank" rel="noopener">@marozmarina ↗</a></dd>
+    <dt>Studio</dt><dd>Minsk, Belarus</dd>
+  </dl>
+  <a class="cp-plate" href="works.html#in-the-secret-garden"><img src="images/thumb/in-the-secret-garden.webp" alt="In the secret garden, 2025, mezzotint ex libris"><span class="mono">Fig. 24 <em>In the secret garden</em>, 2025<br>Mezzotint ex libris, ⌀ 14 cm</span></a>
+</section>
+```

@@ -1,14 +1,15 @@
-# marinamaroz — portfolio site
+# marinamaroz — portfolio site ("The Catalogue")
 
 Quarto website → rendered into `docs/` → served by GitHub Pages (branch `main`, folder `/docs`).
 
 ## Edit content
-- `index.qmd` — landing (hero image, tagline, 3 selected works)
-- `works.qmd` — gallery; each work is one block: `::: {.work data-cat="print|drawing|illustration"}` + image + caption
-- `about.qmd`, `contact.qmd` — bio / CV / links
-- `theme.scss` — all styling (colors at the top)
-- Images go in `images/works/` (JPG ~2000px long edge, < 500 KB each)
+- `index.qmd` — landing (giant name, practice statement, contents, detail plate, recent)
+- `works.qmd` — GENERATED catalogue index; edit `images/works.json` and run `python3 scripts/build_works.py`
+- `about.qmd`, `contact.qmd` — bio / CV / contact
+- `partials/` — header, footer, font links; `styles/catalogue.css` — all styling (colours at the top)
+- `assets/site.js` — hover preview, filters, sort, to-scale view, viewer
 
-## Publish
-    quarto render          # rebuilds docs/
-    git add -A && git commit -m "update" && git push
+## Add a work
+1. `images/works/<slug>.jpg`, transparent `images/cut/<slug>.webp`
+2. `cwebp -q 78 -resize 420 0 images/cut/<slug>.webp -o images/thumb/<slug>.webp`
+3. add to `images/works.json`, then `python3 scripts/build_works.py && quarto render`

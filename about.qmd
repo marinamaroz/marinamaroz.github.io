@@ -1,56 +1,91 @@
 ---
-title: "About"
+pagetitle: "Artist"
 ---
 
-::: {.about-grid}
-::: {}
-![](images/portrait.jpg){fig-alt="Marina Maroz at the etching press" .nolightbox .portrait}
+```{=html}
+<section class="ab-head">
+  <span class="mono s-label">Artist</span>
+  <h1 class="ab-title">Marina Maroz<span class="ab-sub mono">b. 1984, Minsk · lives and works in Minsk</span></h1>
+</section>
+
+<figure class="ab-portrait">
+  <img src="images/portrait.jpg" alt="Marina Maroz at the etching press">
+  <figcaption class="mono"><span>Fig. A</span><span>The artist at the etching press</span></figcaption>
+</figure>
+
+<section class="ab-facts mono">
+  <dl>
+    <dt>Born</dt><dd>1984, Minsk</dd>
+    <dt>Education</dt><dd>MFA in Graphic Arts, Belarusian State Academy of Arts, 2008</dd>
+    <dt>Media</dt><dd>Mezzotint, soft ground etching, ex libris</dd>
+    <dt>Studio</dt><dd>Minsk, Belarus</dd>
+  </dl>
+</section>
+```
+
+::: {.ab-bio}
+::: {.ab-lead}
+Marina Maroz is a graphic artist and printmaker whose practice centres on etching, in particular mezzotint and soft ground etching. Her work focuses on monochrome symbolic still lifes exploring themes of faith and sacrifice, abandonment and hope, as well as the relationship between human and divine.
 :::
 
-::: {}
-[Marina Maroz (b. 1984, Minsk) is a graphic artist and printmaker whose practice centres on etching, in particular mezzotint and soft ground etching.]{.lead-serif}
-
-Her work focuses on monochrome symbolic still lifes exploring themes of faith and sacrifice, abandonment and hope, as well as the relationship between human and divine.
-
+::: {.ab-cols}
 She received her MFA in Graphic Arts from the Belarusian State Academy of Arts in Minsk in 2008. Maroz has held solo exhibitions at institutions such as the Palace of Art in Minsk, Frederikshavn Kunstmuseum & Exlibrissamling (Denmark) and the National Museum of Taras Shevchenko in Kyiv.
 
 Her work has been widely presented in international exhibitions and triennials, including the Tokyo International Mini-Print Triennial at Tama Art University Museum, the Sint-Niklaas Biennial at the International Ex Libris Center, the Ural Print Triennial at the Bashkir Nesterov Art Museum, and the International Mezzotint Festival at Glavny Prospekt International Arts Center. She has received numerous awards, including the Grand Prix at the Art-Pradmova illustrators' contest and prizes at international print triennials.
 
 Her works are held in public collections such as the National Taiwan Museum of Fine Arts, Tama Art University Museum, Malbork Castle Museum and Ostrów Wielkopolski City Museum, as well as in private collections internationally. She lives and works in Minsk.
-
-::: {.cv}
-### Education
-<dl><dt>2008</dt><dd>MFA in Graphic Arts, Belarusian State Academy of Arts, Minsk</dd></dl>
-
-### Solo exhibitions
-<dl>
-<dt>2024</dt><dd><em>Evidences</em>, Terra Graphica Sacrum, Palace of Art, Minsk, Belarus</dd>
-<dt>2019</dt><dd>Frederikshavn Kunstmuseum &amp; Exlibrissamling, Frederikshavn, Denmark</dd>
-<dt>2015</dt><dd><em>Nebo. Kruci. Provallja. Voda.</em>, Friendship House, Minsk, Belarus</dd>
-<dt>2015</dt><dd><em>My Shore</em>, National Museum of Taras Shevchenko, Kyiv, Ukraine</dd>
-<dt>2014</dt><dd><em>Own Shore</em>, Charitable Presidential Foundation of Ukraine, Kyiv, Ukraine</dd>
-<dt>2013</dt><dd><em>Above the Stone</em>, Academy Gallery, Minsk, Belarus</dd>
-</dl>
-
-### Selected group exhibitions
-<dl>
-<dt>2025</dt><dd>VI International Ex Libris Competition, Largo Art Gallery, Varna, Bulgaria</dd>
-<dt>2023</dt><dd><em>Autumn Salon</em>, Palace of Art, Minsk, Belarus</dd>
-<dt>2022</dt><dd><em>The World of Mezzotint</em>, National Center for Contemporary Arts, Minsk, Belarus</dd>
-<dt>2021</dt><dd>Triennial of Painting, Graphics and Sculpture, Palace of Art, Minsk, Belarus</dd>
-</dl>
-
-### Honours &amp; awards
-<dl>
-<dt>2021</dt><dd>Honourable mention, II International Print Triennial, Cieszyn, Poland</dd>
-<dt>2020</dt><dd>Grand Prix, contest-exhibition of illustrators, Pradmova Intellectual Book Festival, Minsk</dd>
-<dt>2020</dt><dd>3rd place, Graphics of the Year, Minsk</dd>
-<dt>2019</dt><dd>3rd prize medal, Ural Print Triennial, Ufa, Bashkortostan</dd>
-<dt>2018</dt><dd>3rd prize in printmaking, Biennial of Painting, Graphics and Sculpture, Minsk</dd>
-</dl>
-
-### Collections
-National Taiwan Museum of Fine Arts · Tama Art University Museum, Tokyo · Malbork Castle Museum, Poland · Ostrów Wielkopolski City Museum, Poland · Alba Iulia Town Hall, Romania · Largo Art Gallery, Bulgaria · private collections in Belarus, Poland, Italy, France, Germany, Denmark and the USA
 :::
 :::
-:::
+
+```{=html}
+<section class="cv" id="cv">
+  <div class="cv-sec">
+    <h2 class="cv-h"><span class="mono">A</span>Education</h2>
+    <ol class="cv-list">
+      <li><span class="y">2008</span><span>MFA in Graphic Arts, Belarusian State Academy of Arts, Minsk</span></li>
+    </ol>
+  </div>
+  <div class="cv-sec">
+    <h2 class="cv-h"><span class="mono">B</span>Solo exhibitions</h2>
+    <ol class="cv-list">
+      <li><span class="y">2024</span><span><em>Evidences</em>, Terra Graphica Sacrum, Palace of Art, Minsk, Belarus</span></li>
+      <li><span class="y">2019</span><span>Frederikshavn Kunstmuseum &amp; Exlibrissamling, Frederikshavn, Denmark</span></li>
+      <li><span class="y">2015</span><span><em>Nebo. Kruci. Provallja. Voda.</em>, Friendship House, Minsk, Belarus</span></li>
+      <li><span class="y">2015</span><span><em>My Shore</em>, National Museum of Taras Shevchenko, Kyiv, Ukraine</span></li>
+      <li><span class="y">2014</span><span><em>Own Shore</em>, Charitable Presidential Foundation of Ukraine, Kyiv, Ukraine</span></li>
+      <li><span class="y">2013</span><span><em>Above the Stone</em>, Academy Gallery, Minsk, Belarus</span></li>
+    </ol>
+  </div>
+  <div class="cv-sec">
+    <h2 class="cv-h"><span class="mono">C</span>Selected group exhibitions</h2>
+    <ol class="cv-list">
+      <li><span class="y">2025</span><span>VI International Ex Libris Competition, Largo Art Gallery, Varna, Bulgaria</span></li>
+      <li><span class="y">2023</span><span><em>Autumn Salon</em>, Palace of Art, Minsk, Belarus</span></li>
+      <li><span class="y">2022</span><span><em>The World of Mezzotint</em>, National Center for Contemporary Arts, Minsk, Belarus</span></li>
+      <li><span class="y">2021</span><span>Triennial of Painting, Graphics and Sculpture, Palace of Art, Minsk, Belarus</span></li>
+    </ol>
+  </div>
+  <div class="cv-sec">
+    <h2 class="cv-h"><span class="mono">D</span>Honours &amp; awards</h2>
+    <ol class="cv-list">
+      <li><span class="y">2021</span><span>Honourable mention, II International Print Triennial, Cieszyn, Poland</span></li>
+      <li><span class="y">2020</span><span>Grand Prix, contest-exhibition of illustrators, Pradmova Intellectual Book Festival, Minsk</span></li>
+      <li><span class="y">2020</span><span>3rd place, Graphics of the Year, Minsk</span></li>
+      <li><span class="y">2019</span><span>3rd prize medal, Ural Print Triennial, Ufa, Bashkortostan</span></li>
+      <li><span class="y">2018</span><span>3rd prize in printmaking, Biennial of Painting, Graphics and Sculpture, Minsk</span></li>
+    </ol>
+  </div>
+  <div class="cv-sec">
+    <h2 class="cv-h"><span class="mono">E</span>Collections</h2>
+    <ol class="cv-list cv-coll">
+      <li><span>National Taiwan Museum of Fine Arts</span></li>
+      <li><span>Tama Art University Museum, Tokyo</span></li>
+      <li><span>Malbork Castle Museum, Poland</span></li>
+      <li><span>Ostrów Wielkopolski City Museum, Poland</span></li>
+      <li><span>Alba Iulia Town Hall, Romania</span></li>
+      <li><span>Largo Art Gallery, Bulgaria</span></li>
+      <li><span>Private collections in Belarus, Poland, Italy, France, Germany, Denmark and the USA</span></li>
+    </ol>
+  </div>
+</section>
+```
