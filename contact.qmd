@@ -1,16 +1,29 @@
 ---
-title: "Contact"
+pagetitle: "Contact · Marina Maroz"
+description: "Contact Marina Maroz for exhibitions, acquisitions, commissions and ex libris."
+body-classes: velvet page-contact
 ---
 
-[For exhibitions, acquisitions, commissions and ex libris, please write.]{.lead-serif}
-
-::: {.cv}
-### Email
-[marinamaroz2018@gmail.com](mailto:marinamaroz2018@gmail.com)
-
-### Instagram
-[@marozmarina](https://www.instagram.com/marozmarina)
-
-### Studio
-Minsk, Belarus
-:::
+```{=html}
+<main class="seal-page">
+  <div class="seal">
+    <svg viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">
+      <defs><path id="seal-arc" d="M500,40 A460,460 0 1,1 499.99,40"/></defs>
+      <circle cx="500" cy="500" r="497"/>
+      <circle cx="500" cy="500" r="420"/>
+      <g class="ring-text">
+        <text><textPath href="#seal-arc" textLength="2860" lengthAdjust="spacing">For exhibitions, acquisitions, commissions and ex libris, please write · Minsk · For exhibitions, acquisitions, commissions and ex libris, please write · Minsk ·</textPath></text>
+      </g>
+    </svg>
+    <div class="seal-core">
+      <p class="label" role="heading" aria-level="1">Contact</p>
+      <a class="email" href="mailto:marinamaroz2018@gmail.com">marinamaroz2018<wbr>@gmail.com</a>
+      <dl>
+        <dt>Instagram</dt><dd><a href="https://www.instagram.com/marozmarina" target="_blank" rel="noopener">@marozmarina</a></dd>
+        <dt>Studio</dt><dd>Minsk, Belarus</dd>
+      </dl>
+    </div>
+  </div>
+  <p class="sr-only">For exhibitions, acquisitions, commissions and ex libris, please write.</p>
+</main>
+```

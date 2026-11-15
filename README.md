@@ -1,14 +1,12 @@
-# marinamaroz — portfolio site
+# marinamaroz: portfolio site ("The Wheel")
 
-Quarto website → rendered into `docs/` → served by GitHub Pages (branch `main`, folder `/docs`).
+Quarto website rendered into `docs/` and served by GitHub Pages (branch `main`, folder `/docs`).
 
-## Edit content
-- `index.qmd` — landing (hero image, tagline, 3 selected works)
-- `works.qmd` — gallery; each work is one block: `::: {.work data-cat="print|drawing|illustration"}` + image + caption
-- `about.qmd`, `contact.qmd` — bio / CV / links
-- `theme.scss` — all styling (colors at the top)
-- Images go in `images/works/` (JPG ~2000px long edge, < 500 KB each)
+- `index.qmd`: the wheel of works. **Generated**: edit `images/works.json`, then run `python3 scripts/build_site.py`
+  (also makes the ring thumbnails in `images/thumb/`; needs Pillow). `START` in the script sets the opening work.
+- `about.qmd`, `contact.qmd`: hand-written HTML blocks.
+- `styles/site.css`: all styling. `scripts/site.js`: wheel + lightbox. `partials/`: head, header, script include.
+- Screenshot helpers: `index.html?still` skips the intro; `?still&open#<slug>` opens a work; add `&detail` for its detail.
 
 ## Publish
-    quarto render          # rebuilds docs/
-    git add -A && git commit -m "update" && git push
+    python3 scripts/build_site.py && ~/.local/quarto/bin/quarto render
